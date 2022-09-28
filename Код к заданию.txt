@@ -1,6 +1,6 @@
-п»їConsole.Clear();
+Console.Clear();
 
-string s = "РѕРґРёРЅ РґРІР° С‚СЂРё 4 Рё -4 РїСЂРёРІРµС‚! РєР°Рє РґРµР»Р°?";
+string s = "один два три 4 и -4 привет! как дела?";
 string[] str = s.Split(" ");
 PrintArray(str);
 string[] strLessFour = GetStrLessFourArr(str);
